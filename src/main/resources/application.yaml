@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: "AITGBot"
+  main:
+    web-application-type: none
+  ai:
+    mistralai:
+      chat:
+        option:
+          model: "mistral-small-latest"
+      api-key: ${MY-APP-KEY}
+
+bot:
+  token: "8337091643:AAHUNrYXA_-6pfEXSidJOF-Tq4nHdml3f7c"
+
+logging:
+  level:
+    root: info
+    org-springframework-ai: DEBUG
+    org-telegram: DEBUG
